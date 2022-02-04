@@ -1,0 +1,34 @@
+export {};
+
+//en este typo de dato vamos a utilizar la sintaxis del <> o tambien conocido como "Angle Bracket syntax"
+
+let userName: any;
+userName = "sanbega";
+
+//tenemos una cadena
+
+let message: string = (<string>userName).length > 5 ? ;// validamos si es mayor ">" de 5 caracteres 
+                        `Welcome ${userName}`: 
+                        "Username is too short"
+console.log("message", message);
+
+let UsernameWithId : any = "luixaviles 1"
+//como obtener el username ?
+username = (<string>UsernameWithId).substring(0, 10)
+
+console.log("username only", username)
+
+
+//sintaxis "as"
+
+message = (userName as string).length > 5 ? ;// con el as se le da el tipo de dato en este caso sera un string 
+                        `Welcome ${userName}`: 
+                        "Username is too short"
+
+let helloUser: any
+helloUser = "hello sanbega"
+username = (helloUser as string).substring(6)
+console.log("username", username);
+
+
+

@@ -1,0 +1,16 @@
+{
+  "name": "Fundamentos de Typescript",
+  "version": "1.0.0",
+  "description": "trabajaremos con typescript",
+  "main": "app.js",
+  "scripts": {
+    "lint": "standard --fix",
+    "prettier": "prettier --write ."
+  },
+  "author": "sanbega",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.4.1",
+    "standard": "^16.0.4"
+  }
+}
